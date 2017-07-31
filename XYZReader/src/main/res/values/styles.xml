@@ -29,4 +29,16 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
+    <style name="ToolbarTheme"
+        parent="Widget.AppCompat.Toolbar">
+        <item name="colorControlNormal">#FFF</item>
+        <item name="colorControlActivated">#FFF</item>
+        <item name="android:textColorPrimary">#FFF</item>
+        <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
+        <item name="selectableItemBackground">@android:color/black</item>
+        <item name="selectableItemBackgroundBorderless">?android:selectableItemBackground</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+
 </resources>
